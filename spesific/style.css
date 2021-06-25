@@ -1,0 +1,27 @@
+/* #content{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+
+div.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+/* berat 11 */
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+/* berat 10 */
+
+.box .text{
+  color: blue;
+}
+
+#content p{
+  color: green;
+}

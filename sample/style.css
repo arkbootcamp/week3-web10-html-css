@@ -1,0 +1,9 @@
+p::first-letter{
+  font-size: 50px;
+  float: left;
+  /* display: block; */
+  line-height:50px
+}
+p{
+  padding: 0px;
+}

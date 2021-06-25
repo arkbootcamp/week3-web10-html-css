@@ -1,0 +1,54 @@
+.box{
+      height: 100px;
+      width: 200px;
+      background-color: red;
+      /* border-width: 2px;
+      border-color: black;
+      border-style: solid; */
+      border: 1px solid black;
+      /* padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px; */
+      padding: 40px 20px;
+      /* margin-bottom: 40px; */
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+}
+.box2{
+  height: 100px;
+  width: 200px;
+  background-color: grey;
+}
+.box2:hover{
+  background-color: blue;
+}
+#box3{
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+  position: relative;
+}
+#box3::after{
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, .2);
+  width: 200px;
+  height: 100px;
+  /* margin-top: 50px;
+  margin-left: 100px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+p::before{
+  content: "L";
+  font-size: 50px;
+  position: relative;
+  top: 20px;
+ 
+
+}
+
+

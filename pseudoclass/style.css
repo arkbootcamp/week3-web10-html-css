@@ -1,0 +1,16 @@
+/* ul li a{
+color: yellow;
+}
+ul li a:hover{
+color: green;
+}
+ul li a:active{
+color: red;
+} */
+
+/* li:last-child a{
+  color: red;
+} */
+li:nth-child(2n) a{
+  color: red;
+}
